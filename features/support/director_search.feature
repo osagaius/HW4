@@ -18,6 +18,7 @@ Scenario: add director to existing movie
   And  I fill in "Director" with "Ridley Scott"
   And  I press "Update Movie Info"
   Then the director of "Alien" should be "Ridley Scott"
+  
  
 Scenario: find movie with same director
   Given I am on the details page for "Star Wars"
